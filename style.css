@@ -1,0 +1,57 @@
+aside{
+    background-color: rgb(218, 18, 18);
+
+}
+
+.with-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    
+}
+.sidebar{
+    flex-basis: 10rem;
+    flex-grow: 0.2;
+    min-height: 100vh;
+    
+    
+
+
+}
+.not-sidebar{
+    flex-basis: 0;
+    flex-grow: 999;
+    min-inline-size: 50%;
+    
+    
+}
+.sidebar img{
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 5px; auto 1rem auto ;
+
+}
+
+.wrapper {
+max-width: 50rem;
+margin-right: auto;
+margin-left: auto;
+
+}
+header{
+    background-color: rgb(255, 255, 255);
+    border: 0.5cap solid rgb(177, 21, 21);
+}
+h1{
+    color: rgb(175, 22, 22);
+        text-align: center;
+
+}
+h2{
+    color: rgb(155, 20, 20);
+}
+p{
+    color : rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
