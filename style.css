@@ -1,5 +1,6 @@
 aside{
-    background-color: rgb(218, 18, 18);
+   background-color: darkred;
+
 
 }
 
@@ -13,6 +14,7 @@ aside{
     flex-basis: 10rem;
     flex-grow: 0.2;
     min-height: 100vh;
+
     
     
 
@@ -39,10 +41,7 @@ margin-right: auto;
 margin-left: auto;
 
 }
-header{
-    background-color: rgb(255, 255, 255);
-    border: 0.5cap solid rgb(177, 21, 21);
-}
+
 h1{
     color: rgb(175, 22, 22);
         text-align: center;
