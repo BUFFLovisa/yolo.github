@@ -1,9 +1,9 @@
 aside{
-   background-color: darkred;
+   background-color: rgb(14, 107, 51);
 
 
 }
-
+.article
 .with-sidebar {
     display: flex;
     flex-wrap: wrap;
@@ -21,7 +21,7 @@ aside{
 
 }
 .not-sidebar{
-    flex-basis: 0;
+    flex-basis: 0.2rem;
     flex-grow: 999;
     min-inline-size: 50%;
     
@@ -37,8 +37,8 @@ aside{
     height: 200px;
     display: block;
    object-fit: cover;
-    border: 5px solid rgb(102, 4, 4);
-     margin: 5px; auto 1rem auto ;
+    border: 5px solid rgb(5, 86, 35);
+     margin: 10px; 1rem  auto;
     border-radius: 100%;
 }
 .wrapper {
@@ -54,14 +54,15 @@ h1{
 
 }
 h2{
-    color: rgb(155, 20, 20);
+    color: rgb(10, 100, 21);
     font-size: 2.5rem;
+
 }
 p{
-    color : rgb(0, 0, 0);
+    color : rgb(5, 56, 15);
     font-size: 1.5rem;
 }
 li{
-    color:rgb(0, 0, 0);
+    color:rgb(5, 56, 15);
     font-size: 1.5rem;
 }
