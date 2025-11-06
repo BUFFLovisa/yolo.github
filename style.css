@@ -11,8 +11,8 @@ aside{
     
 }
 .sidebar{
-    flex-basis: 10rem;
-    flex-grow: 0.2;
+    flex-grow: 0;
+    flex-basis: 120px;
     min-height: 100vh;
 
     
@@ -21,8 +21,8 @@ aside{
 
 }
 .not-sidebar{
-    flex-basis: 0.2rem;
-    flex-grow: 999;
+    flex-basis: auto;
+    flex-grow: 1;
     min-inline-size: 50%;
     
     
@@ -35,10 +35,10 @@ aside{
 .sidebar img.rund-bild{
       max-width: 200px;
     height: 200px;
-    display: block;
+    display: flex;
    object-fit: cover;
     border: 5px solid rgb(5, 86, 35);
-     margin: 10px; 1rem  auto;
+     margin: 10px;
     border-radius: 100%;
 }
 .wrapper {
