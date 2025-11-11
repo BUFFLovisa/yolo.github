@@ -3,17 +3,14 @@ aside{
 
 
 }
-.article
-.with-sidebar {
+.article.with-sidebar {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+
     
 }
 .sidebar{
-    flex-grow: 0;
-    flex-basis: 120px;
-    min-height: 100vh;
+    padding: 1rem;
 
     
     
@@ -28,8 +25,9 @@ aside{
     
 }
 .sidebar img{
-    max-width: 200px;
+    max-width: 150px;
     height: auto;
+    flex: 0 0 200px;
     
 }
 .sidebar img.rund-bild{
@@ -65,4 +63,11 @@ p{
 li{
     color:rgb(5, 56, 15);
     font-size: 1.5rem;
+}
+h3{
+    font-size: 1.5rem;
+    color: green;
+}
+h4{
+    font-size: 1rem;
 }
