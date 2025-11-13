@@ -1,0 +1,73 @@
+aside{
+   background-color: rgb(14, 107, 51);
+
+
+}
+.with-sidebar {
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+.sidebar{
+    padding: 1rem;
+
+flex-basis: 12rem;    
+flex-grow: 1;
+
+
+}
+.not-sidebar{
+    flex-basis: 0;
+    flex-grow: 999;
+    min-inline-size: 50%;
+    
+    
+}
+.sidebar img{
+    max-width: 150px;
+    height: auto;
+    flex: 0 0 200px;
+    
+}
+.sidebar img.rund-bild{
+      max-width: 200px;
+    height: 200px;
+    display: flex;
+   object-fit: cover;
+    border: 5px solid rgb(5, 86, 35);
+     margin: 10px;
+    border-radius: 100%;
+}
+.wrapper {
+max-width: 65rem;
+margin-right: auto;
+margin-left: auto;
+
+}
+
+h1{
+    color: rgb(175, 22, 22);
+        text-align: center;
+
+}
+h2{
+    color: rgb(10, 100, 21);
+    font-size: 2.5rem;
+
+}
+p{
+    color : rgb(5, 56, 15);
+    font-size: 1.5rem;
+}
+li{
+    color:rgb(5, 56, 15);
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 1.5rem;
+    color: green;
+}
+h4{
+    font-size: 1rem;
+}
